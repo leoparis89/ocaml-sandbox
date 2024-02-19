@@ -1,14 +1,12 @@
 open Dream
 
-let handleHello (_:request) = html Hello.En.v
-
-
-let handleBar (_:request) = html "bar"
+let handle_hello (_:request) = html Hello.En.v
+let handle_bar (_:request) = html "bar"
 
 
 let () = run (router [ 
-  get "/hello" handleHello;
-  get "/bar" handleBar
+  get "/hello" handle_hello;
+  get "/bar" handle_bar
 ])
 
 
