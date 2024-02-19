@@ -1,6 +1,6 @@
 let is_prime n =
   let rec is_prime_aux i =
-    if i > n then true
+    if i * i > n then true
     else if n mod i = 0 then false
     else is_prime_aux (i + 1)
   in
