@@ -1,6 +1,6 @@
 (include_subdirs unqualified)
+
 (executable
  (public_name hello)
  (name main)
- (libraries hello dream)
- )
+ (libraries hello dream))
