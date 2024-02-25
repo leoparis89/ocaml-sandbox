@@ -5,4 +5,4 @@ test_watch:
 build_atd_types:
 	atdgen -t ./bin/atd/my_atd.atd
 build_atd_json:
-	atdgen -t ./bin/atd/my_atd.atd
+	atdgen -j ./bin/atd/my_atd.atd
