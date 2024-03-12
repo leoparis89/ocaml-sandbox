@@ -4,5 +4,4 @@ let is_prime n =
     else if n mod i = 0 then false
     else is_prime_aux (i + 1)
   in
-  if n < 2 then false
-  else is_prime_aux 2
+  if n < 2 then false else is_prime_aux 2

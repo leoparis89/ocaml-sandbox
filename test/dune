@@ -1,3 +1,4 @@
 (test
  (name hello)
+ (modules my_atd_j)
  (libraries alcotest prime hello))

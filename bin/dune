@@ -1,6 +1,6 @@
 (include_subdirs unqualified)
 
 (executable
- (public_name hello)
+ (public_name my_app)
  (name main)
  (libraries hello dream))
